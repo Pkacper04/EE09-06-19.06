@@ -1,0 +1,44 @@
+*{
+    font-family: Georgia;
+}
+
+#LBaner,#CBaner,#RBaner,#LStopka,#CStopka,#RStopka{
+    background-color: sienna;
+    color: white;
+    height: 150px;
+    float:left;
+}
+
+#LBaner,#LStopka{
+    width:40%;
+}
+
+#CBaner,#CStopka{
+    width: 50%;
+    font-size: 150%;
+}
+
+#RBaner,#RStopka{
+    width: 10%;
+    text-align: center;
+}
+
+#Glowny{
+    background-color: tan;
+    padding: 100px;
+    float:left;
+    width:100%;
+    box-sizing: border-box;
+}
+
+a{
+    border: 1px dashed sienna;
+    background-color: tan;
+    color: sienna;
+    padding: 40px;
+    line-height: 150px;
+}
+
+ul{
+    list-style: circle;
+}
