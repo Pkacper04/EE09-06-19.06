@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pogotowie Ratunkowe</title>
+    <link rel="stylesheet" href="styl5.css">
+</head>
+<body>
+    <section id="LBaner">
+        <img src="obraz.jpg" alt="pogotowie">
+    </section>
+
+    <section id="CBaner">
+        <h1>Pogotowie <br> Ratunkowe</h1>
+    </section>
+
+    <section id="RBanel">
+        <p>Kontakt:<br> 022 222 11 333</p>
+    </section>
+
+    <section id="Glowny">
+        <h2>Dodaj nowe zgłoszenie</h2>
+        <form action="zgloszenie.php" method="POST">
+
+            <label>Numer zespołu ratowniczego:</label>
+            <input type="number" name="NRRatowniczy">
+
+            <label>Numer dyspozytora:</label>
+            <input type="number" name="NRDyspozytora">
+
+            <label>Adres:</label>
+            <input type="text" maxlength="100" name="Adres">
+
+            <input type="reset" value="WYCZYŚĆ">
+            <input type="submit" value="ZGŁOŚ">
+
+        </form>
+    </section>
+
+    <section id="LStopka">
+        <h4>Numery alarmowe</h4>
+        <ul>
+            <li>999</li>
+            <li>112</li>
+        </ul>
+    </section>
+
+    <section id="CStopka">
+        <a href="kwerendy.txt">Pobierz kwerendy</a>
+    </section>
+
+    <section id="PStopka">
+        <p>Autor:<br>Kacper Potaczała</p>
+    </section>
+</body>
+</html>
